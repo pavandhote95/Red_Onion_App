@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
+import 'package:red_onion_app/regScreen.dart';
 
 import 'WelcomeScreen.dart';
 void main() {
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         fontFamily: ('inter'),
         useMaterial3: true,
       ),
-      home: WelcomeScreen(),
+      home:  WelcomeScreen(),
     );
   }
 }

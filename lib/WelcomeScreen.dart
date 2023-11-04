@@ -16,7 +16,7 @@ class WelcomeScreen extends StatelessWidget {
        decoration: const BoxDecoration(
          gradient: LinearGradient(
            colors: [
-             Color.fromARGB(255, 58, 3, 14),
+             Color.fromARGB(255, 0, 0, 0),
              Color(0xff281537),
            ]
          )
@@ -38,7 +38,7 @@ class WelcomeScreen extends StatelessWidget {
           GestureDetector(
             onTap: (){
               Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => const loginScreen()));
+                  MaterialPageRoute(builder: (context) =>  loginScreen()));
             },
             child: Container(
               height: 53,
